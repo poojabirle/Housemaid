@@ -1,0 +1,259 @@
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .tablestyle{
+            background-color: #cccccc;
+            width: 100%;
+            /padding: 20px;/
+        }
+        .trstyle{
+            border: 1px solid white;
+            border-radius: 10px;
+            color: white;
+        }
+        .tdstyle
+        {
+            padding: 20px;
+            font-size: 25px;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        .tdstyle a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .trstyle :hover {
+            background-color: #3366ff;
+            color: white;
+            border-radius: 10px;
+        }
+        .left_side_image{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 800px;
+            height: 600px;
+            /background-color: aquamarine;/
+            
+        }
+        .box1,.box2,.box3,.box4,.box5,.box6{
+            border: 1px ;
+            text-align: left;
+            margin: auto;
+            background: #fff none repeat scroll 0 0;
+
+            padding: 31px;
+
+            box-shadow: 0px 15px 35px rgb(0 0 0 / 10%);
+            z-index: 1;
+            width: 320px;
+            height: 250px;
+
+        }
+        .box1:hover{
+            background-color: #7052fb;
+            color: rgb(232, 242, 255);
+            background: linear-gradient(to left, #7052fb 50%, rgb(232, 242, 255) 50%) right;
+            background-size: 200%;
+            transition: .5s ease-out;
+
+        }
+        .box2:hover{
+            background-color: #7052fb;
+            color: rgb(232, 242, 255);
+            background: linear-gradient(to left, #7052fb 50%, rgb(232, 242, 255) 50%) right;
+            background-size: 200%;
+            transition: .5s ease-out;
+
+        }
+        .box3:hover{
+            background-color: #7052fb;
+            color: rgb(232, 242, 255);
+            background: linear-gradient(to left, #7052fb 50%, rgb(232, 242, 255) 50%) right;
+            background-size: 200%;
+            transition: .5s ease-out;
+
+        }
+        .box4:hover{
+            background-color: #7052fb;
+            color: rgb(232, 242, 255);
+            background: linear-gradient(to left, #7052fb 50%, rgb(232, 242, 255) 50%) right;
+            background-size: 200%;
+            transition: .5s ease-out;
+
+        }
+        .box5:hover{
+            background-color: #7052fb;
+            color: rgb(232, 242, 255);
+            background: linear-gradient(to left, #7052fb 50%, rgb(232, 242, 255) 50%) right;
+            background-size: 200%;
+            transition: .5s ease-out;
+
+        }
+        .box6:hover{
+            background-color: #7052fb;
+            color: rgb(232, 242, 255);
+            background: linear-gradient(to left, #7052fb 50%, rgb(232, 242, 255) 50%) right;
+            background-size: 200%;
+            transition: .5s ease-out;
+
+        }
+        .box1{
+            margin-left: 100px;
+        }
+        .box2{
+            margin-top: -250px;
+            margin-left: 600px;
+        }
+        .box3{
+            margin-top: -250px;
+            margin-right: 80px;
+        }
+        .box4{
+            margin-left: 100px;
+            margin-top: 150px;
+        }
+        .box5{
+            margin-top: -250px;
+            margin-left: 600px;
+        }
+        .box6{
+            margin-top: -250px;
+            margin-right: 80px;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center; 
+            
+        }
+        .left_side_image img{
+            
+        }
+        .login_form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+            width: 450px;
+            height: 500px;
+            border: 2px solid #000;
+            border-radius: 30px;
+            margin: 30px;
+            box-shadow: #000 5px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        form h2{
+            font-family: sans-serif;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .text_field, .button{
+            width: 250px;
+            padding: 10px;
+            margin: 10px;
+            color: #000;
+            border: 1px solid #000;
+            border-radius: 20px;
+            font-size: 18px;
+            font-family: sans-serif;
+        }
+        .button{
+            color: #fff;
+            background-color: #3366ff;
+            width: 150px;
+            border: white;
+        }
+        .button:hover{
+            font-size: 20px;
+            font-weight: 500;
+            width: 160px;
+        }
+        .bgimage{
+            background-image: url("images/featuresimg.jpg");
+        }
+        .footer{
+            margin: 20px;
+        }
+        .logo{
+            margin-left: 20px;
+        }
+        .tdtheme{
+            font-size: 22px;
+            font-weight: bold;
+            font-family: arial;
+            height: 100px;
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+        }
+        .tdtheme:hover{
+            background-color: lightgrey;
+            color: #1E90FF;
+        }
+        .tabletheme{
+            box-shadow: 10px 10px 5px gainsboro;
+            background-color: #1E90FF;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .textabout{
+            font-size: 4;
+            font-style: oblique;
+        }
+        .img_div{
+            display: block;
+            margin-left: 0px;
+            padding-left: 0px;
+            text-align: left;
+            left: 300px;
+        }
+        .login_form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-left: 20px;
+            border:2px solid black;
+            margin: 15px;
+            padding: 10px;
+            width: 450px;
+            height: 560px;
+            background-color: lightgray;
+        }
+        .Login{
+            text-align: center;
+        }
+        .Password{
+            text-align: center;
+        }
+        .button1,.button2{
+            margin: 25px;
+        }
+        
+        .div1{
+            font-size: 25px;
+        }
+        .div1{
+            margin: 20px;
+            margin-left: 550px;
+            padding: 40px;
+        }
+        .footer{
+            width: 1500px;
+            height: 250px;
+            background: #3680c4;
+        }
+        

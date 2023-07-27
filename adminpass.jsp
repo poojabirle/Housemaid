@@ -1,0 +1,121 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <style>
+        .box{
+            background-image: url(images/adminimg.jpg);
+            margin-top: 10px;
+            padding: 1px;
+            width: 100%;
+            height: 600px;
+            background-repeat: no-repeat;
+        }
+        bgimage{
+            background-image: url("images/featuresimg.jpg");
+        }
+        .logo{
+            margin-left: 20px;
+        }
+        .tdtheme{
+            font-size: 22px;
+            font-weight: bold;
+            font-family: arial;
+            height: 100px;
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+        }
+        .tdtheme:hover{
+            background-color: lightgrey;
+            color: #1E90FF;
+
+
+        }
+        .tabletheme{
+            box-shadow: 10px 10px 5px gainsboro;
+            background-color: #1E90FF;
+
+        }
+        .password_setting{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 450px;
+            height: 500px;
+            border: 2px solid #000;
+            border-radius: 30px;
+            margin-right: 0px;
+            margin-left: 500px;
+            margin-top: 80px;
+            box-shadow: #000 5px;
+            background-color: black;
+            
+        }
+        .text_field, .button{
+            width: 250px;
+            padding: 10px;
+            margin: 10px;
+            color: #000;
+            border: 1px solid #000;
+            border-radius: 20px;
+            font-size: 18px;
+            font-family: sans-serif;
+        }
+        .tabletheme ul {
+            display: none;
+            position: absolute;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 300px;
+            left: 0;
+        }
+        .tabletheme td:hover ul { display: block; }
+        .tabletheme td{
+            position: relative;
+        }
+    </style>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+        <table width='100%' class='tabletheme'>
+<td class="tdtheme">Update Task
+                    <ul>
+                        <li><a href="updatepersonaladmin.jsp" class="updateoption1">Update Personal Detail</a></li>
+                        <li><a href="updateworkeraccount.jsp" class="updateoption1">Update Worker Account</a></li>
+                    </ul>
+                </td>
+                <td class="tdtheme">
+                    View Task
+                    <ul>
+                        <li><a href="viewhiering.jsp" class="viewoption1">VIEW HIERING</a></li>
+                        <li><a href="viewworkercomplain.jsp" class="viewoption1">VIEW WORKER COMPLAIN</a></li>
+                        <li><a href="viewusercomplain.jsp" class="viewoption1">VIEW USER COMPLAIN</a></li>
+                    </ul>
+                </td>
+                <td class="tdtheme"><a href="search.jsp">Search Worker</a></td>
+                 </tr>
+
+        </table>
+        <div class="box">
+        <div class="password_setting">
+                <form action='adminpasscode.jsp'>
+
+                    <h2 style="color: white">Login </h2>
+                    <input type="text" class="text_field" placeholder="Enter Your ID" name="id"><br>
+                    <input type="password" class="text_field" placeholder="Enter Your Old Password" name="oldpwd"><br>
+                    <input type="password" class="text_field" placeholder="Enter Your New Password" name="newpwd"><br>
+                    <input type="password" class="text_field" placeholder="Confirm Password" name="cnewpwd"><br>
+                    <tr align='center'>
+                        <td colspan='2'>
+                            <input type='submit'  value='submit'  class='btntheme'  name="btn1">
+                        </td>
+                    </tr>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
